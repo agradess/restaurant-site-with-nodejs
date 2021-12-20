@@ -6,9 +6,6 @@ Again, this site is not for a real restaurant, this is just for experimentation.
 
 Working Pages:
 
-Home
-- Basic home page.
-Menu
-- View menu items and place orders.
-Contact
-- Submit a review and search for past reviews.
+- Home: Basic home page.
+- Menu: View menu items and place orders.
+- Contact: Submit a review and search for past reviews.
