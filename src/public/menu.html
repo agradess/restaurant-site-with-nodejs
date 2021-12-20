@@ -1,0 +1,103 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Security-Policy" content="img-src 'self' https://encrypted-tbn0.gstatic.com https://www.brit.co https://www.siouxfalls.business;">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<script src="animations.js"></script>
+	<script src="menu.js"></script>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<title>Takeout Menu</title>
+</head>
+
+<body>
+	<div id="header">
+		<div id="title">Henry's Bar & Grille</div>
+		<navbar id="navbar" >
+			<span><a href="index.html">Home</a></span>
+			<span>About Us</span>
+			<div class="products">
+				<div id="products_btn">Products</div>
+				<div id="dropdown" class="products_content">
+					<a href="https://www.amazon.com/s?k=mens+slippers&crid=4MPQRQFCWCJ2&sprefix=mens%2Caps%2C166&ref=nb_sb_ss_ts-doa-p_2_4">Men's</a>
+					<a href="https://www.amazon.com/s?k=womens+boots&crid=3HD5ZVV8SIUED&sprefix=womens%2Caps%2C176&ref=nb_sb_ss_ts-doa-p_5_6">Women's</a>
+					<a href="https://www.amazon.com/s?k=halloween+costumes&crid=I0QQCFL6LX6O&sprefix=halloween+costumes%2Caps%2C166&ref=nb_sb_ss_ts-doa-p_1_18">Unisex</a>
+					<a href="https://www.amazon.com/s?k=animal+adoption&ref=nb_sb_noss_1">Pets</a>
+				</div>
+			</div>
+			<span><a href="contact.html">Contact Us</a></span>
+			<span>Menu</span>
+		</navbar>
+	</div>
+
+	<div id="content">
+
+		<div class="sidebar">
+			<p id="locations">Locations:</p>
+			<p>Blair</p>
+			<p>Rockville</p>
+			<p>Silver Spring</p>
+			<p>Towson</p>
+		</div>
+
+		<div id="menu">
+			<p style="font-size: 28;">~ Takeout Menu ~</p>
+			<hr>
+			<p>Sides : $3.99</p>
+			
+			<ul>
+				<li>French Fries</li>
+				<li>Seasonal Vegetable</li>
+				<li>Wings</li>
+				<li>Philly Cheesesteak Rolls</li>
+				<li>Baltimore Ori-rolls</li>
+			</ul>
+			<hr>
+			<p>Salads - $10.99</p>
+			
+			<ul>
+				<li>Caeser Salad</li>
+				<li>Grilled Chicken Salad w/ Roasted Tomatoes and Peppers</li>
+				<li>Asian Salad</li>
+				<li>Aioli Salad</li>
+				<li>Taco Salad w/ Pico de Gallo</li>
+			</ul>
+			<hr>
+			<p>Entrees (comes with two sides)</p>
+			
+			<ul>
+				<li>Classic Cheeseburger - $16.99</li>
+				<li>Escargot - $30.01</li>
+				<li>Fetuccini Alfredo - $14.99</li>
+				<li>Henry's Shrimp N' Grits - $20</li>
+				<li>Grandma's Meatloaf - $12.99</li>
+			</ul>
+
+			<p>Posh Entrees (comes with three sides)</p>
+			
+			<ul>
+				<li>Filet Mignon - $50.49</li>
+			</ul>
+
+			<hr>
+
+		    <p>Place an Order:</p>
+			<form class=".order_form" >
+			    <label for="name">Name:</label>
+			    <input id="name" /><br><br>
+			    <label for="items">Enter your order here:</label><br>
+			    <input id="items" /><br><br>
+			    <label for="type">Takeout/Delivery:</label>
+			    <input id="type" /><br><br>
+			    <label for="pay">Card Type:</label>
+				<input id="pay" /><br><br>
+				<button id="order_button" type="button">Submit!</button>
+				<!-- Add type="button" to a button in a form to 
+					prevent auto-submit effect. Default type is
+					'submit'. -->
+		    </form>
+		</div>
+	</div>
+</body>
+
+</html>

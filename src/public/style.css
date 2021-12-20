@@ -1,0 +1,106 @@
+body {
+	margin: 0px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+a { text-decoration: none; color: black }
+
+a:hover { color: white }
+
+form:hover { background-color: rgb(50) }
+
+img {
+	width: 50%;
+	margin: 5px;
+}
+
+#header {
+	background-color: burlywood;
+}
+
+#title {
+	background-color: brown;
+	font-weight: 600;
+	font-size: 30px;
+	font-family: Times New Roman;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+#products_btn, #navbar span, #order_button {
+	padding: 16px;
+	cursor: pointer;
+}
+
+#navbar { text-align: center }
+
+#navbar span {
+	display: inline-block;
+}
+
+#products_btn:hover, #products_btn:focus, #navbar span:hover, #locations {
+  background-color: brown;
+  color: white;
+}
+
+#bio, #menu, #reviews {
+	width: 60%;
+	float: left;
+	margin: auto;
+	padding: 20px 16px;
+}
+
+#roast, #items {
+	size: 75%;
+	height: 100;
+}
+
+#search_results {
+	background-color: bisque;
+	padding: 20px 10px;
+	margin: 50px 0px;
+}
+
+.products {
+  position: relative;
+  display: inline-block;
+}
+
+.products_content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; /* places in front of other elements */
+}
+
+.products_content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.products_content a:hover { 
+	background-color: burlywood;
+	color: black
+}
+
+.show { display: block }
+
+.sidebar {
+	float: left;
+	min-width: 150px;
+}
+
+.sidebar p {
+	padding: 10px 16px;
+}
+
+.sidebar p:hover {
+	background-color: burlywood;
+}
