@@ -1,0 +1,15 @@
+{
+  "name": "mini_server",
+  "version": "1.0.0",
+  "description": "My second local server with a cleaner looking website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js && exit 1"
+  },
+  "author": "Adam Gradess",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
